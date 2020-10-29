@@ -13,7 +13,7 @@ The following are basic instructions required to create a simple server on your 
 - A good practice is to pass the `http.createServer()` to variable:
 
 ```javascript
-let server = `http.createServer()
+let server = http.createServer()
 ```
 
 - The `createServer()` method takes a **requestListener** function with 2 arguments **request** and a **response**.
